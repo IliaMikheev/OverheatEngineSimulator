@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\torque">
+      <UniqueIdentifier>{663dc5da-7dee-4ebc-8a6e-b615766c4108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\torque">
+      <UniqueIdentifier>{765841e7-a7c1-4b5d-ba32-2031d93459a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\engine">
+      <UniqueIdentifier>{d5ae5712-ae6e-4616-8303-f8aa33ed46ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\engine">
+      <UniqueIdentifier>{a7c9784c-a418-444c-95b0-e1a9c0e73801}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="tests_engine.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="torque_calc.cpp">
+      <Filter>Исходные файлы\torque</Filter>
+    </ClCompile>
+    <ClCompile Include="abstract_engine.cpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tests_engine.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="abstract_torque_calc.h">
+      <Filter>Файлы заголовков\torque</Filter>
+    </ClInclude>
+    <ClInclude Include="torque_calc.h">
+      <Filter>Файлы заголовков\torque</Filter>
+    </ClInclude>
+    <ClInclude Include="abstract_engine.h">
+      <Filter>Файлы заголовков\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Файлы заголовков\engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
